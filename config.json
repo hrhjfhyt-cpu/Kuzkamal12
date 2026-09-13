@@ -1,12 +1,12 @@
 {
-  "botName": "DAVID V1",
+  "botName": "Alox V1",
   "botVersion": "2.0.0",
-  "author": "DJAMEL",
+  "author": "ALOX",
   "prefix": "/",
   "language": "ar",
   "timezone": "Africa/Algiers",
 
-  "ownerID": "100012345678",
+  "ownerID": "61593590627474",
   "adminBot": [100004505559262],
   "superAdminBot": [100004505559262],
 
