@@ -285,5 +285,5 @@ module.exports.simulateTyping     = simulateTyping;
 module.exports.buildReplyHelper   = buildReplyHelper;
 module.exports.getThreadInfo      = getThreadInfo;
 module.exports.version            = "4.0.0";
-module.exports.author             = "DJAMEL";
+module.exports.author             = "Alox";
 module.exports.media              = media;
