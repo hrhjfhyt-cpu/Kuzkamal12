@@ -163,9 +163,9 @@ function buildHelpAll(prefix) {
 
   const lines = [];
   lines.push(LINE);
-  lines.push("  ✦  D A V I D  V 1  ✦  H Y B R I D");
+  lines.push('囧 𝗔⃝𝗦𝗧̗̿̓͐𝗥̑̑̑̑𝗢͕͐̂̌̽̄⃛⃛⃜ ｟⸸｠𝗦̱̮̄̅𝗪̹͈̌͑͑̾͆̎҈𝗢̢͍͉𝗥̶᪷᪶ͣ҇𝗗̲̅̆͞ ┆𝗫┆ 𝗗̲ؖ̈́̅𝗘꙲̼̝͆̾𝗩⃫̷̸͝͡𝗜𝗟̙̝ 𝗔͍̅̉𝗟᪶᪵𝗢̜҇⃜⃜⃡̅̇͑͟͞𝗫͈̿̎͟/ᔉ᐀᐀ᙌ');
   lines.push("  🤖 مساعدك الذكي على ماسنجر");
-  lines.push(`  ⚡ by DJAMEL  •  Prefix: ${prefix}`);
+  lines.push(`  ⚡ by Alox  •  Prefix: ${prefix}`);
   lines.push(LINE);
   lines.push("");
 
