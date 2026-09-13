@@ -25,7 +25,7 @@ module.exports = {
     name: "warn",
     aliases: ["تحذير", "warning"],
     version: "2.0",
-    author: "DJAMEL",
+    author: "ALOX",
     countDown: 5,
     role: 2,
     category: "management",
