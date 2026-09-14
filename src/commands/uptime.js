@@ -12,11 +12,11 @@ function formatUptime(ms) {
   const m = Math.floor((s % 3600) / 60);
   const sec = s % 60;
   const parts = [];
-  if (d) parts.push(`${d} يوم`);
-  if (h) parts.push(`${h} ساعة`);
-  if (m) parts.push(`${m} دقيقة`);
-  parts.push(`${sec} ثانية`);
-  return parts.join(" و ");
+  if (d) parts.push(`${d} D`);
+  if (h) parts.push(`${h} H`);
+  if (m) parts.push(`${m} M`);
+  parts.push(`${sec} S`);
+  return parts.join(" , ");
 }
 
 module.exports = {
