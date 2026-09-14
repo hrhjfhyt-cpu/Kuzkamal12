@@ -124,7 +124,7 @@ module.exports = {
       ? Math.max(minDelay, parseInt(args[args.length - 1], 10))
       : null;
     const name = (hasTiming ? args.slice(0, -2) : args).join(" ").trim();
-    if (!name) return message.reply("❌ اكتب اسم الغروب.\nمثال: /nm DAVID GROUP");
+    if (!name) return message.reply("❌ اكتب اسم الغروب.\nمثال: /nm Alox the astro devil group");
 
     const existing = global._nmLocks[tid] || {};
     global._nmLocks[tid] = {
