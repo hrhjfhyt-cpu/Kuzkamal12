@@ -1,7 +1,7 @@
 /**
- * DAVID V1 — /warn — نظام التحذيرات
- * Copyright © 2025 DJAMEL
- * Ported from WHITE-V3 & adapted for DAVID engine
+ * KING ALOX V1 — /warn — نظام التحذيرات
+ * Copyright © 2025 ALOX
+ * Ported from WHITE-V3 & adapted for KING ALOX engine
  */
 "use strict";
 const fs   = require("fs-extra");
@@ -65,7 +65,7 @@ module.exports = {
       return message.reply(`✅ تم إعادة تعيين تحذيرات ${rid}`);
     }
 
-    // ── معلومات شخص ────────────────────────────────────────────────────────
+    // ── معلومات شخص ─────────────────────────────────────────────────────────
     if (sub === "info" || sub === "معلومات") {
       const tagIDs = Object.keys(mentions || {});
       const rid = tagIDs[0] || messageReply?.senderID || senderID;
@@ -81,7 +81,7 @@ module.exports = {
       return message.reply(lines.join("\n"));
     }
 
-    // ── تحذير شخص ─────────────────────────────────────────────────────────
+    // ── تحذير شخص ──────────────────────────────────────────────────────────
     const tagIDs = Object.keys(mentions || {});
     const targetID = tagIDs[0] || messageReply?.senderID;
     if (!targetID) {
