@@ -13,9 +13,9 @@ function formatUptime(ms) {
   const sec = s % 60;
   const parts = [];
   if (d) parts.push(`${d} D`);
-  if (h) parts.push(`${h} H`);
-  if (m) parts.push(`${m} M`);
-  parts.push(`${sec} S`);
+  if (h) parts.push(`${h} h`);
+  if (m) parts.push(`${m} m`);
+  parts.push(`${sec} s`);
   return parts.join(" , ");
 }
 
