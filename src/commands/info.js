@@ -10,7 +10,7 @@ module.exports = {
     name: "info",
     aliases: ["boxinfo", "threadinfo", "معلومات-الغروب"],
     version: "2.0",
-    author: "DJAMEL",
+    author: "ALOX",
     countDown: 5,
     role: 0,
     category: "utility",
