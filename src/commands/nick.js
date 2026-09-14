@@ -128,7 +128,7 @@ module.exports = {
     }
 
     // ── حدف / reset ───────────────────────────────────────────────────────────
-    if (sub === "حدف" || sub === "reset") {
+    if (sub === "حذف" || sub === "reset") {
       // أوقف الحلقة أولاً
       if (global._nickLocks[tid]) global._nickLocks[tid].active = false;
       message.reply("🗑 جاري حذف جميع الكنيات…");
@@ -162,7 +162,7 @@ module.exports = {
     // ── [name] — قفل عام مستمر ────────────────────────────────────────────────
     const name = args.join(" ").trim();
     if (!name) return message.reply(
-      "❌ اكتب الاسم.\nمثال: /nick DJAMEL\n\nالأوامر:\n" +
+      "❌ اكتب الاسم.\nمثال: /nick Alox x-mcrowa\n\nالأوامر:\n" +
       "/nick [اسم] — قفل للكل\n" +
       "/nick set [uid] [اسم] — قفل لشخص\n" +
       "/nick off — إيقاف\n" +
